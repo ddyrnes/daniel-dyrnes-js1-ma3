@@ -17,3 +17,13 @@ async function getApi() {
   }
 }
 getApi();
+
+//
+
+// getCollection("test tes".then(console.log(test)));
+// ctrl//
+// store.getCollection()
+// Several smaller files > one big file
+
+// Handle HTML with template - not learned yet - learn?
+hello = () => console.log("hello");
