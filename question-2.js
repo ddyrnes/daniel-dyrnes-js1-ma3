@@ -10,7 +10,7 @@ async function getApi() {
     const dataList = data.results;
     container.innerHTML = "";
     for (let i = 0; i < dataList.length; i++) {
-      if (i === 7) {
+      if (i === 8) {
         break;
       }
       container.innerHTML += `
