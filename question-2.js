@@ -15,15 +15,15 @@ async function getApi() {
       }
       container.innerHTML += `
     <ul class="ul-container">
-    <li> Name of Author: ${dataList[i].name} </li>
-    <li> Rating: ${dataList[i].rating} </li>
-    <li> Number of tags recieved: ${dataList[i].tags.length} </li>
+    <li> <span class="span-text">Name of Author:</span> ${dataList[i].name} </li>
+    <li> <span class="span-text">Rating:</span> ${dataList[i].rating} </li>
+    <li> <span class="span-text">Number of tags recieved:</span> ${dataList[i].tags.length} </li>
     </ul>
     `;
     }
   } catch (error) {
     container.innerHTML = "";
-    container.innerHTML = `<p class="ul-container"> An error occoured.</p>`;
+    container.innerHTML = `<p class="spin-text"> An error occoured.</p>`;
   }
 }
 getApi();
